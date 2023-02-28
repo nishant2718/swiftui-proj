@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9680B2D429AB9609009C79F4 /* Note+CoreDataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680B2D329AB9609009C79F4 /* Note+CoreDataExtensions.swift */; };
+		9684954529AD7F8B007A9849 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684954429AD7F8B007A9849 /* NoteDetailView.swift */; };
+		9684954829AD86A3007A9849 /* NSPredicate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684954729AD86A3007A9849 /* NSPredicate+Extensions.swift */; };
 		968A71062997C317001A5F79 /* SwiftUIProjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A71052997C317001A5F79 /* SwiftUIProjApp.swift */; };
 		968A71082997C317001A5F79 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A71072997C317001A5F79 /* Persistence.swift */; };
 		968A710B2997C317001A5F79 /* SwiftUIProj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 968A71092997C317001A5F79 /* SwiftUIProj.xcdatamodeld */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9680B2D329AB9609009C79F4 /* Note+CoreDataExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataExtensions.swift"; sourceTree = "<group>"; };
+		9684954429AD7F8B007A9849 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		9684954729AD86A3007A9849 /* NSPredicate+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPredicate+Extensions.swift"; sourceTree = "<group>"; };
 		968A71022997C317001A5F79 /* SwiftUIProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		968A71052997C317001A5F79 /* SwiftUIProjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjApp.swift; sourceTree = "<group>"; };
 		968A71072997C317001A5F79 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -76,6 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9680B2D229AB95E4009C79F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9680B2D329AB9609009C79F4 /* Note+CoreDataExtensions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9684954629AD85D0007A9849 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9684954729AD86A3007A9849 /* NSPredicate+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		968A70F92997C317001A5F79 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +121,8 @@
 		968A71042997C317001A5F79 /* SwiftUIProj */ = {
 			isa = PBXGroup;
 			children = (
+				9684954629AD85D0007A9849 /* Extensions */,
+				9680B2D229AB95E4009C79F4 /* Model */,
 				968A71052997C317001A5F79 /* SwiftUIProjApp.swift */,
 				968A71072997C317001A5F79 /* Persistence.swift */,
 				968A710C2997C317001A5F79 /* ContentView.swift */,
@@ -106,6 +130,7 @@
 				968A71102997C318001A5F79 /* SwiftUIProj.entitlements */,
 				968A71092997C317001A5F79 /* SwiftUIProj.xcdatamodeld */,
 				968A71112997C318001A5F79 /* Preview Content */,
+				9684954429AD7F8B007A9849 /* NoteDetailView.swift */,
 			);
 			path = SwiftUIProj;
 			sourceTree = "<group>";
@@ -268,7 +293,10 @@
 				968A710B2997C317001A5F79 /* SwiftUIProj.xcdatamodeld in Sources */,
 				968A71062997C317001A5F79 /* SwiftUIProjApp.swift in Sources */,
 				968A710D2997C317001A5F79 /* ContentView.swift in Sources */,
+				9684954829AD86A3007A9849 /* NSPredicate+Extensions.swift in Sources */,
+				9684954529AD7F8B007A9849 /* NoteDetailView.swift in Sources */,
 				968A71082997C317001A5F79 /* Persistence.swift in Sources */,
+				9680B2D429AB9609009C79F4 /* Note+CoreDataExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

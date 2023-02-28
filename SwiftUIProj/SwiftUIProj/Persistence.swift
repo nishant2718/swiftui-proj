@@ -43,8 +43,7 @@ extension PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for index in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date() + TimeInterval(index)
+            let newNote = Note(title: "note \(index)", context: viewContext)
         }
 
         return result
