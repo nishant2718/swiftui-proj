@@ -15,7 +15,7 @@ struct NoteDetailView: View {
         VStack {
             Text("Note Detail View")
                 .font(.title)
-            
+
             HStack {
                 Text("Title: ")
                 Text(note.title)
@@ -35,6 +35,9 @@ struct NoteDetailView: View {
             .foregroundColor(.brown)
         }
         .padding()
+        .onDisappear {
+            PersistenceController.shared.save()
+        }
     }
 
 }
