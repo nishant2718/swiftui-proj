@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9613664729D4702B00EE897B /* NotesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613664629D4702B00EE897B /* NotesTest.swift */; };
 		9680B2D429AB9609009C79F4 /* Note+CoreDataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9680B2D329AB9609009C79F4 /* Note+CoreDataExtensions.swift */; };
 		9684954529AD7F8B007A9849 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684954429AD7F8B007A9849 /* NoteDetailView.swift */; };
 		9684954829AD86A3007A9849 /* NSPredicate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684954729AD86A3007A9849 /* NSPredicate+Extensions.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9613664629D4702B00EE897B /* NotesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTest.swift; sourceTree = "<group>"; };
 		9680B2D329AB9609009C79F4 /* Note+CoreDataExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataExtensions.swift"; sourceTree = "<group>"; };
 		9684954429AD7F8B007A9849 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 		9684954729AD86A3007A9849 /* NSPredicate+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPredicate+Extensions.swift"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		968A711B2997C318001A5F79 /* SwiftUIProjTests */ = {
 			isa = PBXGroup;
 			children = (
+				9613664629D4702B00EE897B /* NotesTest.swift */,
 				968A711C2997C318001A5F79 /* SwiftUIProjTests.swift */,
 			);
 			path = SwiftUIProjTests;
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				968A711D2997C318001A5F79 /* SwiftUIProjTests.swift in Sources */,
+				9613664729D4702B00EE897B /* NotesTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +531,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B5D28HZYBD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nishant.SwiftUIProj.SwiftUIProjTests;
@@ -550,7 +554,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B5D28HZYBD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nishant.SwiftUIProj.SwiftUIProjTests;

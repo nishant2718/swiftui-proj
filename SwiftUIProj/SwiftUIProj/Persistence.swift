@@ -62,4 +62,8 @@ extension PersistenceController {
 
         return result
     }()
+
+    static func createEmptyStore() -> PersistenceController {
+        return PersistenceController(inMemory: true)
+    }
 }
